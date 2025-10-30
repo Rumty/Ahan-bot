@@ -1,6 +1,5 @@
 import setting as s
-from PIL import Image, ImageDraw, ImageFont
-import discord, dateutil.parser, random, asyncio, time, schedule
+import discord, dateutil.parser, random, asyncio, time
 #from discord import Activity, ActivityType, AutoShardedBot, Sticker
 from discord.ext import commands
 from discord.ui import View, Button
@@ -17,7 +16,6 @@ from discord.ext import tasks
 from discord.commands import Option, OptionChoice
 from discord.ext.commands import MissingPermissions
 import typing 
-import urllib.error
 import urllib.parse
 import requests
 from discord_timestamps.formats import TimestampType
